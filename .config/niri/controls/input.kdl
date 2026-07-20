@@ -1,0 +1,20 @@
+//----------------------------------------------
+// Hardware Input Shard
+//----------------------------------------------
+
+input {
+    keyboard {
+        xkb {
+            options "caps:tab"
+        }
+        numlock
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+    }
+
+    warp-mouse-to-focus
+    focus-follows-mouse max-scroll-amount="10%"
+}
