@@ -39,14 +39,6 @@ window-rule {
     opacity 1.0
 }
 
-// Open Terminals, Yazi, etc Terminal Apps on Terminal Space
-window-rule {
-    match app-id=r#"^org\.wezfurlong\.wezterm$"# 
-    exclude title=r#"Yazi.*"#
-    open-on-workspace "terminals"
-    open-focused true
-}
-
 // Opacity rules for games and such
 window-rule {
     match app-id="HytaleClient"
