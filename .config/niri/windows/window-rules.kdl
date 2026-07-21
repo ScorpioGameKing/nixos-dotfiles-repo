@@ -26,7 +26,7 @@ window-rule {
 
 // Open Everything on Main
 window-rule {
-    //open-on-workspace "main"
+    open-on-workspace "main"
     open-focused true
 }
 
