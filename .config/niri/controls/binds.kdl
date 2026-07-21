@@ -49,8 +49,8 @@ binds {
     // Mod+Up    hotkey-overlay-title=null { focus-window-up; }
     // Mod+Right hotkey-overlay-title=null { focus-column-right; }
     Mod+H     hotkey-overlay-title=null { focus-column-left; }
-    Mod+J     hotkey-overlay-title=null { focus-window-down; }
-    Mod+K     hotkey-overlay-title=null { focus-window-up; }
+    Mod+J     hotkey-overlay-title=null { focus-workspace-up; }
+    Mod+K     hotkey-overlay-title=null { focus-workspace-down; }
     Mod+L     hotkey-overlay-title=null { focus-column-right; }
 
     // Move Columns
@@ -59,8 +59,8 @@ binds {
     // Mod+Ctrl+Up    hotkey-overlay-title=null { move-window-up; }
     // Mod+Ctrl+Right hotkey-overlay-title=null { move-column-right; }
     Mod+Ctrl+H     hotkey-overlay-title=null { move-column-left; }
-    //Mod+Ctrl+J     hotkey-overlay-title=null { move-window-down; }
-    //Mod+Ctrl+K     hotkey-overlay-title=null { move-window-up; }
+    Mod+Ctrl+J     hotkey-overlay-title=null { move-window-down; }
+    Mod+Ctrl+K     hotkey-overlay-title=null { move-window-up; }
     Mod+Ctrl+L     hotkey-overlay-title=null { move-column-right; }
 
     // Hop to Ends
@@ -109,9 +109,9 @@ binds {
     Mod+Tab hotkey-overlay-title=null { focus-workspace-previous; }
 
     // Move the focused window in and out of a column.
-    Mod+W hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'>Create Stack</span>" { toggle-column-tabbed-display; }
-    Mod+BracketLeft  hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'>Consume/Expel Left</span>" { consume-or-expel-window-left; }
-    Mod+BracketRight hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'> Consume/Expel Right</span>" { consume-or-expel-window-right; }
+    // Mod+W hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'>Create Stack</span>" { toggle-column-tabbed-display; }
+    // Mod+BracketLeft  hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'>Consume/Expel Left</span>" { consume-or-expel-window-left; }
+    // Mod+BracketRight hotkey-overlay-title="<span font='Agave Nerd Font Mono' size='14pt' foreground='#8ec07c'><b>Stacks</b></span><span font='Agave Nerd Font Mono' size='14pt'>:</span> <span font='Agave Nerd Font Mono' size='14pt' foreground='#83a598'> Consume/Expel Right</span>" { consume-or-expel-window-right; }
 
     // Cycle Widths and Heights
     Mod+R       hotkey-overlay-title=null { switch-preset-column-width; }
