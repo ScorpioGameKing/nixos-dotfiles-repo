@@ -19,8 +19,8 @@
         "format-icons": {
             "main": " ",
             "terminals": " ",
-            "files": " ",
             "browsers": "󰖟 ",
+            "chat": "󱋊 ",
             "default": "󱈹 "
         },
         "on-click": "activate" 
