@@ -6,6 +6,7 @@
 workspace "main"
 workspace "terminals"
 workspace "browsers"
+workspace "chat"
 
 // Include Inital Shards
 include "controls/input.kdl"

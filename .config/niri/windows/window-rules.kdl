@@ -24,7 +24,7 @@ window-rule {
     block-out-from "screen-capture"
 }
 
-// Open The Rest on Main
+// Open Everything on Main
 window-rule {
     //open-on-workspace "main"
     open-focused true
@@ -46,6 +46,14 @@ window-rule {
     open-focused true
 }
 
+// Open Discord on chat
+window-rule {
+    match app-id=r#"equibop"#
+    open-on-workspace "chat"
+    open-focused true
+    open-maximized true
+}
+
 // Opacity rules for games and such
 window-rule {
     match app-id="HytaleClient"
@@ -63,7 +71,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="steam_app_250900"
+    match app-id=r#"steam_app_.*"#
     opacity 1.0
 }
 
