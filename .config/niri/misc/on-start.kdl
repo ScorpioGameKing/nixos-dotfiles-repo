@@ -3,5 +3,5 @@
 //----------------------------------------------
 
 spawn-at-startup "waybar"
-spawn-sh-at-startup "waypaper --random"
+spawn-sh-at-startup "waypaper --restore --random"
 
